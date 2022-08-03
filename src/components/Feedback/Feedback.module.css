@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.btn,
+.btn:active {
+  width: 60px;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(130, 139, 138);
+}
